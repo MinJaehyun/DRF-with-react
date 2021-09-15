@@ -1,9 +1,0 @@
-__pychache__
-.DS_Store          
-.vscode             
-*.pyc              
-.idea/
-*.sqlite3            
-/static            
-/media             
-env.sh
