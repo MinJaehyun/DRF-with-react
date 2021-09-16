@@ -10,7 +10,6 @@ function PostList() {
     useEffect(()=>{
         Axios.get(apiUrl)
         .then(response => {
-            // console.log("loaded response:", response)
             const { data } = response;
             
             setPostList(data)
@@ -22,7 +21,6 @@ function PostList() {
 
     return (
         <div>
-            <h3>PostList</h3>
             {
                 postList.map(post => {
                     return <Post post={post} key={post.id} />             
