@@ -99,7 +99,7 @@ export default function Signup() {
             required: true,
             message: 'Please input your password!',
           },
-          { min: 10, message: "10글자 이상 입력해주세요"},
+          { min: 8, message: "8자 이상 입력해주세요"},
         ]}
         {...fieldErrors.password}
       >
